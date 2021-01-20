@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'examen-angular';
 
-  item_colors = ["Geel", "Groen", "Blauw", "Rood"];
-  item_images = ["assets/geel.jpg", "assets/groen.jpg", "assets/blauw.png","assets/rood.jpg"];
+  item_colors = ["Geel", "Groen", "Blauw", "Rood", "Paars"];
+  item_images = ["assets/geel.jpg", "assets/groen.jpg", "assets/blauw.png","assets/rood.jpg", "assets/paars.jpg"];
 
   selected_item=0;
 
