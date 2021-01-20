@@ -10,13 +10,13 @@
     <table>
         <tr>
             <td>
-                <app-color-list [items]="item_colors" (select)="onSelect($event)"></app-color-list>
+                <app-color-list [items]="item_colors" (select)="onSelect($event)"></app-color-list> <!-- Hier wordt de color list afgebeeld-->
             </td>
 
         </tr>
         <tr>
             <td>
-                <app-color-square [afbeelding]="item_images[selected_item]" ></app-color-square>
+                <app-color-square [afbeelding]="item_images[selected_item]" ></app-color-square> <!-- Hier wordt de color square / afbeelding afgebeeld-->
             </td>
         </tr>
     </table>
