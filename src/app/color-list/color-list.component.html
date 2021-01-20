@@ -1,0 +1,6 @@
+<p>Dit is de color list:</p>
+
+{{items}}
+<ul *ngFor="let item of items; index as i">
+    <li (click)="onclick(i)">{{item}}</li>
+</ul>
