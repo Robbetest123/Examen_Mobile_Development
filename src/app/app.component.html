@@ -6,19 +6,22 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<table>
-    <tr>
-        <td>
-            <app-color-list [items]="item_colors" (select)="onSelect($event)"></app-color-list>
-        </td>
-        
-    </tr>
-    <tr>
-        <td>
-            <app-color-square [afbeelding]="item_images[selected_item]" ></app-color-square>
-        </td>
-    </tr>
-</table>
+<div class="shadow w-3/5 mx-auto overflow-hidden rounded border-gray-200">
+    <table>
+        <tr>
+            <td>
+                <app-color-list [items]="item_colors" (select)="onSelect($event)"></app-color-list>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <app-color-square [afbeelding]="item_images[selected_item]" ></app-color-square>
+            </td>
+        </tr>
+    </table>
+</div>
+
 
 <!-- de table werkt voor de een of andere reden niet.-->
 
